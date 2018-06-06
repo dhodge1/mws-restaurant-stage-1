@@ -64,6 +64,13 @@ section {
   display: block;
 }
 
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;

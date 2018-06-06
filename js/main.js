@@ -168,8 +168,6 @@ createRestaurantHTML = (restaurant) => {
 
   figure.append(figurecaption);
 
-  console.log('figure: ', figure);
-
   li.append(figure);
 
   return li

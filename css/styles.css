@@ -351,3 +351,11 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+/* ====================== Media Queries ====================== */
+@media screen and (min-width: 1600px) {
+  #restaurants-list {
+    width: 1600px;
+    margin: 0 auto;
+  }
+}

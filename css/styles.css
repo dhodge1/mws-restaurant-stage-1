@@ -179,19 +179,20 @@ nav h1 a {
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
+  justify-content: center;
 }
 
 #restaurants-list li {
   background-color: #fff;
   border-radius: 20px 0;
   font-family: Arial, sans-serif;
-  margin: 15px auto;
+  margin: 15px;
   min-height: 380px;
   padding: 0 0 25px;
   text-align: left;

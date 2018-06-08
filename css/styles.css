@@ -408,7 +408,7 @@ nav h1 a {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 820px) {
   #breadcrumb {
     width: 50%;
   }

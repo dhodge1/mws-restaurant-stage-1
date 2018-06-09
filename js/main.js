@@ -147,8 +147,8 @@ createRestaurantHTML = (restaurant) => {
   image.alt = restaurant.alt;
   figure.append(image);
 
-  const figurecaption = document.createElement("figcaption");
-  figurecaption.className = "restaurant-metadata";
+  const figurecaption = document.createElement('figcaption');
+  figurecaption.className = 'restaurant-metadata';
 
   const name = document.createElement('h1');
   name.innerHTML = restaurant.name;
@@ -165,6 +165,7 @@ createRestaurantHTML = (restaurant) => {
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
+  more.setAttribute('role', 'button');
   figurecaption.append(more);
 
   figure.append(figurecaption);

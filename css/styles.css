@@ -163,6 +163,7 @@ nav:first-of-type h1 a {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
+  justify-content: flex-end;
 }
 
 .filter-options h2 {

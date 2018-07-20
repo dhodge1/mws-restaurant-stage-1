@@ -1,0 +1,16 @@
+{
+    "short_name": "MWS",
+    "name": "Mobile Web Specialist - Restaurant Revies",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "img/hamburger.svg",
+            "type": "image/svg+xml",
+            "sizes": "192x192 512x512"
+        }
+    ],
+    "background_color": "#f3f3f3",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#f3f3f3"
+}

@@ -10,6 +10,7 @@ self.addEventListener("install", event => {
       .then(cache => {
         return cache.addAll([
           "/",
+          "/manifest.json",
           "/restaurant.html",
           "css/styles.css",
           "data/restaurants.json",
@@ -25,7 +26,8 @@ self.addEventListener("install", event => {
           "img/7.jpg",
           "img/8.jpg",
           "img/9.jpg",
-          "img/10.jpg"
+          "img/10.jpg",
+          "img/hamburger.svg"
         ]);
       })
       .catch(error => {

@@ -1,0 +1,23 @@
+{
+  "name": "mws",
+  "version": "1.0.0",
+  "description": "Project for Udacity Mobile Web Specialist nanodegree",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhodge1/mws-restaurant-stage-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhodge1/mws-restaurant-stage-1/issues"
+  },
+  "homepage": "https://github.com/dhodge1/mws-restaurant-stage-1#readme",
+  "dependencies": {
+    "idb": "^2.1.3",
+    "npm": "^6.2.0"
+  }
+}
